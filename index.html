@@ -28,7 +28,7 @@
             </ul>
         </nav>
         <a href="tel:7194319698">719-431-9698</a>
-        <a href="#">Contact  Us</a>
+        <a href="./pages/contacs.html">Contact  Us</a>
     </header>
     <main>
         <img src="./static/img/banner.jpg" alt="banner">
@@ -152,5 +152,58 @@
             </ul>
         </section>
     </footer>
+    <section>
+        <h1>Contact Us</h1>
+        <form action="#">
+            <div>
+                <div>
+                    <label for="input-name">Name</label>
+                    <input id="input-name" type="text" placeholder="Ivan Ivanov">
+                </div>
+                <div>
+                    <label for="input-phone">Phone</label>
+                    <input id="input-phone" type="tel">
+                </div>
+                <div>
+                    <label for="input-mail">E-mail</label>
+                    <input type="email" name="" id="input-mail">
+                </div>
+                <fieldset>
+                    <legend>Payment Methods</legend>
+                    <ul>
+                        <li>
+                            <input id="input-cash" type="checkbox">
+                            <label for="input-cash">Сash</label>
+                        </li>
+                        <li>
+                            <input id="input-credit" type="checkbox">
+                            <label for="input-credit">Сredit Сard</label>
+                        </li>
+                        <li>
+                            <input id="input-receipt" type="checkbox">
+                            <label for="input-receipt">Receipt</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <label for="input-city">
+                    <span>City of Birth</span>
+                    <input id="input-city" type="text">
+                </label>
+                <fieldset>
+                    <legend>Do you need a report on the services provided?</legend>
+                    <div>
+                        <input id="input-yes" type="radio" name="radio_group" value="yes">
+                        <label for="input-yes">yes</label>
+                        <input id="input-no" type="radio" name="radio_group" value="no">
+                        <label for="input-no">no</label>
+                    </div>
+                </fieldset>
+                <div>
+                    <label for="input_message">message</label>
+                    <textarea name="" id="input_message" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">SUBMIT</button>
+            </div>
+        </form>
 </body>
 </html>
